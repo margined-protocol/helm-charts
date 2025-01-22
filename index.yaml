@@ -14,6 +14,16 @@ entries:
   locust-osmosis:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-22T14:25:28.962460966Z"
+    description: A Helm chart for Kubernetes
+    digest: 908d03824f304066e1c07c78381a227f4029579520fc53e42dab1cc9d4f206a6
+    name: locust-osmosis
+    type: application
+    urls:
+    - https://github.com/margined-protocol/helm-charts/releases/download/locust-osmosis-0.1.1/locust-osmosis-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-14T13:14:52.581738512Z"
     description: A Helm chart for Kubernetes
     digest: ecae3848c71c2091bd33080d87d7c2a95eb29f8fe421d5c1f20a72025a31830b
@@ -22,4 +32,4 @@ entries:
     urls:
     - https://github.com/margined-protocol/helm-charts/releases/download/locust-osmosis-0.1.0/locust-osmosis-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-14T13:14:52.581744674Z"
+generated: "2025-01-22T14:25:28.962474611Z"
