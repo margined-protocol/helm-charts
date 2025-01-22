@@ -6,4 +6,4 @@ metadata:
     {{- include "locust-neutron.labels" . | nindent 4 }}
 data:
   config.toml: |-
-    {{- toYaml .Values.config.configToml | nindent 4 }}
+{{ .Values.config.configToml | indent 4 }}
