@@ -3,6 +3,16 @@ entries:
   locust-neutron:
   - apiVersion: v2
     appVersion: 0.8.2
+    created: "2025-01-22T14:54:24.895271658Z"
+    description: A Helm chart for Kubernetes
+    digest: d840efaf97d9a8c48b21f581d62b2633cdaab975d83000d42a7dd7cbc54899b8
+    name: locust-neutron
+    type: application
+    urls:
+    - https://github.com/margined-protocol/helm-charts/releases/download/locust-neutron-0.1.4/locust-neutron-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.8.2
     created: "2025-01-22T14:32:33.931800491Z"
     description: A Helm chart for Kubernetes
     digest: 5e47cf9e156746e225f0274362100b0c0054b17fd96cb7f7c510677c95608c72
@@ -32,6 +42,16 @@ entries:
     - https://github.com/margined-protocol/helm-charts/releases/download/locust-neutron-0.1.0/locust-neutron-0.1.0.tgz
     version: 0.1.0
   locust-osmosis:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-22T14:54:25.008626617Z"
+    description: A Helm chart for Kubernetes
+    digest: 08fe6174f6bc41be7673ab280617f3b1e71a1d9c40ebbf078d57caee8d3f0423
+    name: locust-osmosis
+    type: application
+    urls:
+    - https://github.com/margined-protocol/helm-charts/releases/download/locust-osmosis-0.1.4/locust-osmosis-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-22T14:32:34.108589081Z"
@@ -72,4 +92,4 @@ entries:
     urls:
     - https://github.com/margined-protocol/helm-charts/releases/download/locust-osmosis-0.1.0/locust-osmosis-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-22T14:32:34.108611443Z"
+generated: "2025-01-22T14:54:25.008658136Z"
