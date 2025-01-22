@@ -42,7 +42,7 @@ spec:
               protocol: TCP
           volumeMounts:
             - name: config-volume
-              mountPath: /config/config.toml
+              mountPath: /configs/config.toml
               subPath: config.toml
           livenessProbe:
             {{- toYaml .Values.livenessProbe | nindent 12 }}
