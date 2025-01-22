@@ -121,3 +121,29 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+# Add the config section for config.toml
+config:
+  configToml: |
+    memo           = ""
+    websocket_path = "/websocket"
+    signer_account = "neutron"
+    tx_retry_count = 3
+    tx_retry_delay = 500
+    dry_run        = true
+    prop_trade     = true
+
+    [chain]
+    prefix         = "neutron"
+    gas            = "auto"
+    gas_adjustment = 1.3
+    gas_prices     = "0.0053untrn"
+    gas_denom      = "untrn"
+    grpc_server_address = "neutron-testnet-grpc.polkachu.com:19190"
+    grpc_tls            = false
+    rpc_server_address  = "https://neutron-testnet-rpc.polkachu.com:443"
+
+    [key]
+    app_name = "neutron"
+    backend  = "file"
+    root_dir = "/vault/secrets"
